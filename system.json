@@ -1,0 +1,24 @@
+{
+    "name": "piipv1",
+    "title": "PIIP RPG",
+    "author": "Leribee & Upatu",
+    "version": 0.01,
+    "minimumCoreVersion": "13.350",
+    "compatibleCoreVersion": "13.350",
+    "esmodules": [
+        "piip.js"
+    ],
+    "styles": [
+       "piip.css" 
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "vida",
+    "initiative": "1d20 + @speed"
+}
