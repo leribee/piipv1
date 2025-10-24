@@ -1,0 +1,68 @@
+{
+  "PIIP": {
+    "SystemName": "PIIP - Proteção Internacional de Investigação Paranormal"
+  },
+
+  "TYPES": {
+    "Actor": {
+      "personagem": "Personagem",
+      "criatura": "Criatura"
+    },
+    "Item": {
+      "equipamento": "Equipamento",
+      "arma": "Arma",
+      "habilidade": "Habilidade",
+      "trauma": "Trauma",
+      "poder": "Poder"
+    }
+  },
+
+  "PIIP.Atributos": {
+    "fisico": "Físico",
+    "tecnico": "Técnico",
+    "cognitivo": "Cognitivo",
+    "social": "Social"
+  },
+
+  "PIIP.AtributosSecundarios": {
+    "pv": "Pontos de Vida",
+    "pvMax": "PV Máximo",
+    "sanidade": "Sanidade",
+    "sanidadeMax": "Sanidade Máxima",
+    "sorte": "Sorte",
+    "sorteMax": "Sorte Máxima",
+    "fadiga": "Fadiga",
+    "fadigaMax": "Fadiga Máxima"
+  },
+
+  "PIIP.Defesas": {
+    "fisica": "Defesa Física",
+    "mental": "Defesa Mental",
+    "social": "Defesa Social"
+  },
+
+  "PIIP.Pericias": {
+    "title": "Perícias",
+    "fisicas": "Perícias Físicas",
+    "tecnicas": "Perícias Técnicas",
+    "cognitivas": "Perícias Cognitivas",
+    "sociais": "Perícias Sociais"
+  },
+
+  "PIIP.Equipamento": {
+    "title": "Equipamentos",
+    "nome": "Nome",
+    "descricao": "Descrição",
+    "quantidade": "Quantidade"
+  },
+
+  "PIIP.Biografia": {
+    "nome": "Nome",
+    "idade": "Idade",
+    "cargo": "Cargo",
+    "origem": "Origem",
+    "aparencia": "Aparência",
+    "personalidade": "Personalidade",
+    "historia": "História"
+  }
+}
