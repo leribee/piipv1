@@ -1,27 +1,52 @@
 {
-    "id": "piipv1",
-    "title": "PIIP RPG",
-    "author": "Leribee & Upatu",
-    "version": 0.01,
-    "minimumCoreVersion": "13.350",
-    "compatibleCoreVersion": "13.350",
-    "esmodules": [
-        "piip.js"
-    ],
-    "styles": [
-       "piip.css" 
-    ],
-    "packs": [
-
-    ],
-    "languages": [
-        "pt-BR.json"
-    ],
-    "gridDistance": 1.5,
-    "gridUnits": "m",
-    "primaryTokenAttribute": "vida",
-    "initiative": "1d20 + @speed",
-    "url": "https://github.com/leribee/piipv1",
-    "manifest": "https://raw.githubusercontent.com/leribee/piipv1/main/system.json",
-    "download": "https://github.com/leribee/piipv1/archive/refs/heads/main.zip"
+  "id": "piipv1",
+  "title": "PIIP - Proteção Internacional de Investigação Paranormal",
+  "description": "Sistema de RPG focado em investigação paranormal e horror",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Leticia Barros",
+      "url": "https://github.com/leribee/piipv1"
+    }
+  ],
+  "esmodules": [
+    "module/piip.js"
+  ],
+  "styles": [
+    "styles/piip.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "personagem": {},
+      "criatura": {}
+    },
+    "Item": {
+      "equipamento": {},
+      "arma": {},
+      "habilidade": {},
+      "trauma": {},
+      "poder": {}
+    }
+  },
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "atributos.secundarios.pv",
+  "secondaryTokenAttribute": "atributos.secundarios.sanidade",
+  "url": "https://github.com/leribee/piipv1",
+  "manifest": "https://raw.githubusercontent.com/leribee/piipv1/main/system.json",
+  "download": "https://github.com/leribee/piipv1/archive/refs/heads/main.zip"
 }
