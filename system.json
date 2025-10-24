@@ -20,5 +20,8 @@
     "gridDistance": 1.5,
     "gridUnits": "m",
     "primaryTokenAttribute": "vida",
-    "initiative": "1d20 + @speed"
+    "initiative": "1d20 + @speed",
+    "url": "https://github.com/leribee/piipv1",
+    "manifest": "https://raw.githubusercontent.com/leribee/piipv1/main/system.json",
+    "download": "https://github.com/leribee/piipv1/archive/refs/heads/main.zip"
 }
