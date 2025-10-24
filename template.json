@@ -1,4 +1,28 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types":[
+            "arma",
+            "veiculo"
+        ],
+        "templates":{
+            "descricaoItem":{
+                "descricao":""
+            },
+            "nomeItem": {
+                "nome": ""
+            }
+        },
+        "arma":{
+            "templates":[
+                "nomeItem",
+                "descricaoItem"
+            ],
+            "dano": 0,
+            "tipoDeDano": "cortante",
+            "alcance": "corpo",
+            "criticoRange": 20,
+            "criticoMult": 2
+        }
+    }
 }
